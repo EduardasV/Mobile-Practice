@@ -1,0 +1,75 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public enum Stat
+{
+    HP,
+    HPRegen,
+    FTL,
+    Shield,
+    ShieldRegen
+}
+
+public class StatsHelper : MonoBehaviour 
+{
+    #region Stat Const
+
+    //HP
+    private const float BASE_HP = 1.0f;
+    //HPRegen
+    private const float BASE_HPREGEN = 2.0f;
+    private const float GAIN_HPREGEN = 0.25f;
+    //FTL
+    private const float BASE_FTL = 4.0f;
+    private const float GAIN_FTL = 0.5f;
+    //Shield
+    private const float BASE_SHIELD = 5.0f;
+    private const float GAIN_SHIELD = 1.0f;
+    //ShieldRegen
+    private const float BASE_SHIELDREGEN = 6.0f;
+    private const float GAIN_SHIELDREGEN = 1.5f;
+
+    #endregion 
+
+    public static StatsHelper Instance{ set; get; }
+
+    private const int MAX_SKILL_LEVEL = 8;
+    private const float LEVEL_VALUES_SCALE = 40.0f;
+    private int[] levelValuesArray = new int[MAX_SKILL_LEVEL];
+
+	private void Start () 
+    {
+        Instance = this;
+        GenerateLevelValuesArray();
+	}
+
+    private void GenerateLevelValuesArray()
+    {
+        float points = 0;
+        for (int i = 0; i < MAX_SKILL_LEVEL; i++)
+        {
+            points += 1;
+            levelValuesArray[i] = (int)points;
+            Debug.Log("Level " + i.ToString() + " : " + levelValuesArray[i]);
+        }
+    }
+	
+    public float GetStatValue(Stat stat)
+    {
+        int level = 1;
+        switch (stat)
+        {
+            case Stat.HP:
+                return BASE_HP + levelValuesArray[level];
+            case Stat.HPRegen:
+                return 0;
+            case Stat.FTL:
+                return 0;
+            case Stat.Shield:
+                return 0;
+            case Stat.ShieldRegen:
+                return 0;
+        }
+        return -1f;
+    }
+}

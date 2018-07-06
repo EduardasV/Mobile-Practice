@@ -1,0 +1,12 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+
+public class HealthStatContainer : MonoBehaviour 
+{
+    public Text levelText;
+    public Text goldCostText;
+    public Text panelGoldText;
+    public Image statIcon;
+    public Button levelUp;
+}

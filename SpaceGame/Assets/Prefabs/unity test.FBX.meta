@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 25237844fc1251e42830c1cabb546dd3
+timeCreated: 1475149536
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera001
+    100002: Camera001.Target
+    100004: Plane002
+    100006: RingLight 001
+    100008: RingLight 002
+    100010: RingLight 003
+    100012: RingLight 004
+    100014: RingLight 005
+    100016: RingLight 006
+    100018: RingLight 007
+    100020: RingLight 008
+    100022: RingLight 009
+    100024: RingLight 010
+    100026: RingLight 011
+    100028: RingLight 012
+    100030: RingLight 013
+    100032: RingLight 014
+    100034: RingLight 015
+    100036: RingLight 016
+    100038: RingLight 017
+    100040: RingLight 018
+    100042: RingLight 019
+    100044: RingLight 020
+    100046: RingLight 021
+    100048: RingLight 022
+    100050: RingLight 023
+    100052: RingLight 024
+    100054: RingLight 025
+    100056: RingLight 026
+    100058: RingLight 027
+    100060: RingLight 028
+    100062: RingLight 029
+    100064: RingLight 030
+    100066: RingLight 031
+    100068: RingLight 032
+    100070: //RootNode
+    400000: Camera001
+    400002: Camera001.Target
+    400004: Plane002
+    400006: RingLight 001
+    400008: RingLight 002
+    400010: RingLight 003
+    400012: RingLight 004
+    400014: RingLight 005
+    400016: RingLight 006
+    400018: RingLight 007
+    400020: RingLight 008
+    400022: RingLight 009
+    400024: RingLight 010
+    400026: RingLight 011
+    400028: RingLight 012
+    400030: RingLight 013
+    400032: RingLight 014
+    400034: RingLight 015
+    400036: RingLight 016
+    400038: RingLight 017
+    400040: RingLight 018
+    400042: RingLight 019
+    400044: RingLight 020
+    400046: RingLight 021
+    400048: RingLight 022
+    400050: RingLight 023
+    400052: RingLight 024
+    400054: RingLight 025
+    400056: RingLight 026
+    400058: RingLight 027
+    400060: RingLight 028
+    400062: RingLight 029
+    400064: RingLight 030
+    400066: RingLight 031
+    400068: RingLight 032
+    400070: //RootNode
+    2300000: Plane002
+    3300000: Plane002
+    4300000: Plane002
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+﻿#pragma strict
+
+private var mousePos : Vector2;
+private var screenPos : Vector3;
+
+
+function Start () {
+
+}
+
+function Update () {
+
+mousePos = Input.mousePosition;
+screenPos = camera.main.ScreenToWorldPoint(Vector3(mousePos.x, mousePos.y, transform.position.z - camera.main.transform.position.z));
+
+trasform.rotation.eulerAngles.z = Mathf.Atan2((screenPos.y - transform.position.y), (screenPos.x - transform,position.x))*Mathf.Rad2Def;
+}
