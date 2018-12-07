@@ -1,4 +1,4 @@
-# Space Game
+# Space Game 
 ## Purpose of the project 
 The purpose of this project was to practice mobile development with C# and Unity. This is an "endless runner" type game where in my case is a spaceship trying to dodge obstacles by spinning. Main focus of this project was creating different views and create a shop where the player could use points they gain inside the game to buy items and upgrade their ship. When they buy the items it is then unlocked when the player is playing the game.
 
